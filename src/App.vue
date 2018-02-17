@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <router-link :to="{ name: 'Main' }">Main</router-link>
+    <router-link :to="{ name: 'Dashboard' }">Dashboard</router-link>
+    <router-link to="/login">Login</router-link>
     <router-view/>
   </div>
 </template>
@@ -17,7 +19,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #859eb8;
   margin-top: 60px;
 }
 </style>
