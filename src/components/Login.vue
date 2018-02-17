@@ -2,15 +2,11 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Login</h2>
-    <ul>
-      <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-        </a>
-      </li>
-    </ul>
+    <form method="POST" action="http://localhost/login/">
+      Username: <input type="text" name="username" size="15" /><br />
+      Password: <input type="password" name="password" size="15" /><br />
+      <p><input type="submit" value="Login" /></p>
+    </form>
   </div>
 </template>
 
