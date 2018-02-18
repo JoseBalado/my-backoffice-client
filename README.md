@@ -1,4 +1,4 @@
-# my-vue-webpack
+# my-backoffice-client
 
 > A Vue.js project
 
