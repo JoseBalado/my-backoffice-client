@@ -2,16 +2,9 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Dashboard</h2>
-    <ul>
-      <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Core Docs
-        </a>
-      </li>
-    </ul>
+    <div>
+      <iframe src="http://localhost/frontendstats"></iframe>
+    </div>
   </div>
 </template>
 
